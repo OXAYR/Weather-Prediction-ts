@@ -26,7 +26,7 @@ module.exports = {
       directory: path.join(__dirname, "dist"),
     },
     compress: true,
-    port: 9001, // This is the port the server will run on
-    open: true, // Automatically opens the browser
+    port: 9001,
+    open: true,
   },
 };
