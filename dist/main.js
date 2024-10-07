@@ -16,7 +16,7 @@
   \*************************************/
 /***/ (() => {
 
-eval("\n/** @format */\nclass BottomBar extends HTMLElement {\n    connectedCallBack() {\n        this.innerHTML = `\n    <div class='flex justify-center items-center py-10 bg-white bg-opacity-5 text-black gap-20'>\n    <div>Data source: openweathermap.org</div>\n    <div>Github Oxayr<a href='https://github.com/OXAYR/Weather-Prediction-ts'/></div>\n    </div>\n    `;\n    }\n}\ncustomElements.define(\"bottom-bar\", BottomBar);\n\n\n//# sourceURL=webpack://weather-update-ts/./src/components/bottomBar.ts?");
+eval("\n/** @format */\nclass BottomBar extends HTMLElement {\n    connectedCallback() {\n        this.innerHTML = `\n    <div class='flex justify-center items-center py-4 bg-white bg-opacity-40 text-black gap-20 '>\n    <div>Data source: openweathermap.org</div>\n    <div><a href='https://github.com/OXAYR/Weather-Prediction-ts>Github Oxayr</a></div>\n    </div>\n    `;\n    }\n}\ncustomElements.define(\"bottom-bar\", BottomBar);\n\n\n//# sourceURL=webpack://weather-update-ts/./src/components/bottomBar.ts?");
 
 /***/ }),
 
