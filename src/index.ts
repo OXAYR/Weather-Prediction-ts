@@ -1,3 +1,4 @@
 /** @format */
 
-import "./components/navbar/navabar";
+import "./components/navabar";
+import "./components/bottomBar";
