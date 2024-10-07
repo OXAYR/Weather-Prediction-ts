@@ -31,3 +31,16 @@ function getUserLocation(): Promise<Coordinates> {
     }
   });
 }
+
+async function logUserLocation(): Promise<void> {
+  try {
+    const { lat, lon } = await getUserLocation();
+    console.log("Here is the location of the user:", lat, lon);
+  } catch (error) {
+    console.error("Error getting user location:", error);
+  }
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  logUserLocation();
+});
