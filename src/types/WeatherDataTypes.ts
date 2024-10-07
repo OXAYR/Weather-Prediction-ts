@@ -1,16 +1,36 @@
-interface Coordinates{
-    lat:number;
-    lon:number;
+/** @format */
+
+export interface Coordinates {
+  lat: number;
+  lon: number;
 }
 
-interface WeatherData{
-    main: string;
+export interface WeatherData {
+  current: CurrentWeather;
+  daily: DailyWeather[];
 }
 
-interface GeolocationError{
-    code: number;
-    message: string;
+export interface CurrentWeather {
+  temp: number;
+  humidity: number;
+  weather: WeatherCondition[];
 }
 
+export interface DailyWeather {
+  dt: number;
+  temp: {
+    day: number;
+    night: number;
+  };
+  weather: WeatherCondition[];
+}
 
+export interface WeatherCondition {
+  description: string;
+  icon: string;
+}
+
+export interface GeolocationError {
+  code: number;
+  message: string;
 }
