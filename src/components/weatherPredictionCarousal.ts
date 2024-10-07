@@ -5,7 +5,7 @@ class WeatherPredicationCarousal extends HTMLElement {
     this.innerHTML = `<div class="flex justify-center items-center ">
     <div class="max-w-2xl w-full bg-white shadow-lg rounded-lg p-4">
         <div class="flex justify-between items-center">
-            <h3 class="font-bold text-lg">Прогноз на каждые 3 часа</h3>
+            <h3 class="font-bold text-lg">Forecast every 3 hours</h3>
             <div class="flex items-center space-x-4">
                 <!-- Left Arrow -->
                 <button class="text-gray-500 hover:text-gray-700 focus:outline-none">
@@ -33,7 +33,7 @@ class WeatherPredicationCarousal extends HTMLElement {
                         <path d="M6.343 17.657a9 9 0 1112.728 0 9 9 0 01-12.728 0zm8.485-8.485a6 6 0 10-8.485 8.485 6 6 0 008.485-8.485z"></path>
                     </svg>
                 </div>
-                <div class="text-sm text-gray-500 mt-2">21:00 Вт</div>
+                <div class="text-sm text-gray-500 mt-2">21:00 Tue</div>
             </div>
             
             <!-- Repeat for each time period -->
@@ -44,7 +44,7 @@ class WeatherPredicationCarousal extends HTMLElement {
                         <path d="M6.343 17.657a9 9 0 1112.728 0 9 9 0 01-12.728 0zm8.485-8.485a6 6 0 10-8.485 8.485 6 6 0 008.485-8.485z"></path>
                     </svg>
                 </div>
-                <div class="text-sm text-gray-500 mt-2">00:00 Вт</div>
+                <div class="text-sm text-gray-500 mt-2">00:00 Tue</div>
             </div>
             
             <div class="flex flex-col items-center">
@@ -54,7 +54,7 @@ class WeatherPredicationCarousal extends HTMLElement {
                         <path d="M6.343 17.657a9 9 0 1112.728 0 9 9 0 01-12.728 0zm8.485-8.485a6 6 0 10-8.485 8.485 6 6 0 008.485-8.485z"></path>
                     </svg>
                 </div>
-                <div class="text-sm text-gray-500 mt-2">03:00 Ср</div>
+                <div class="text-sm text-gray-500 mt-2">03:00 Wed</div>
             </div>
 
             <div class="flex flex-col items-center">
@@ -64,7 +64,7 @@ class WeatherPredicationCarousal extends HTMLElement {
                         <path d="M6.343 17.657a9 9 0 1112.728 0 9 9 0 01-12.728 0zm8.485-8.485a6 6 0 10-8.485 8.485 6 6 0 008.485-8.485z"></path>
                     </svg>
                 </div>
-                <div class="text-sm text-gray-500 mt-2">06:00 Ср</div>
+                <div class="text-sm text-gray-500 mt-2">06:00 Wed</div>
             </div>
 
             <div class="flex flex-col items-center">
@@ -74,7 +74,7 @@ class WeatherPredicationCarousal extends HTMLElement {
                         <path d="M6.343 17.657a9 9 0 1112.728 0 9 9 0 01-12.728 0zm8.485-8.485a6 6 0 10-8.485 8.485 6 6 0 008.485-8.485z"></path>
                     </svg>
                 </div>
-                <div class="text-sm text-gray-500 mt-2">09:00 Ср</div>
+                <div class="text-sm text-gray-500 mt-2">09:00 Wed</div>
             </div>
         </div>
     </div>
